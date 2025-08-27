@@ -42,9 +42,6 @@ class Bullet extends PooledObject {
 }
 
 void main() {
-  // Initialize pool for Bullet
-  // 初始化 Bullet 对象池
-  PooledObject.initializePool<Bullet>(() => Bullet());
 
   // Acquire an object from the pool
   // 从对象池中获取对象
